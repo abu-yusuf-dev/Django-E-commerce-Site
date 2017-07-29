@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="jumbotron">
+    {% load staticfiles %}
+    <img src="{% static 'img/responsive_web_design.png' %}">
+    <h1>This is the title of my website</h1>
+    <p class="lead">And here is a bit of explanation about what it does</p>
+    <a class="btn btn-large btn-success" href="/register">Register today to get started</a><br/><br/><br/>
+    <a href="https://twitter.com/arcticfeather" class="twitter-follow-button" data-show-count="false" data-size="large">Follow me</a>
+    <script>
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+    </script>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://twitter.com/intent/tweet_screen_name=arcticfeather" class="twitter-mention-button" data-size="large">Send me a Tweet</a>
+    <script>
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+    </script>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.realpython.com" data-text="Django for the Non-Programmer #realpython -" data-size="large">Share!</a>
+    <script>
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+    </script>
+</div> <!-- jumbotron -->
+
+<hr>
+
+<div class="row-fluid marketing">
+    <div class="span6">
+        <h3>(1) One</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Mauris ut dui ac nisi vestibulum accumsan. Praesent gravida
+nulla vitae arcu blandit, non congue elit tempus.
+Suspendisse quis vestibulum diam.</p>
+        <h3>(2) Two</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Mauris ut dui ac nisi vestibulum accumsan. Praesent gravida
+nulla vitae arcu blandit, non congue elit tempus.
+Suspendisse quis vestibulum diam.</p>
+        <h3>(3) Three</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Mauris ut dui ac nisi vestibulum accumsan. Praesent gravida
+nulla vitae arcu blandit, non congue elit tempus.
+Suspendisse quis vestibulum diam.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Mauris ut dui ac nisi vestibulum accumsan. Praesent gravida
+nulla vitae arcu blandit, non congue elit tempus.
+Suspendisse quis vestibulum diam.</p>
+    </div> <!-- span6 -->
+
+    <div class="span6">
+        <h3>(4) Four</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Mauris ut dui ac nisi vestibulum accumsan. Praesent gravida
+nulla vitae arcu blandit, non congue elit tempus.
+Suspendisse quis vestibulum diam.</p>
+        <h3>(5) Five</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Mauris ut dui ac nisi vestibulum accumsan. Praesent gravida
+nulla vitae arcu blandit, non congue elit tempus.
+Suspendisse quis vestibulum diam.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Mauris ut dui ac nisi vestibulum accumsan. Praesent gravida
+nulla vitae arcu blandit, non congue elit tempus.
+Suspendisse quis vestibulum diam.</p>
+        <h3>(6) Six</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Mauris ut dui ac nisi vestibulum accumsan. Praesent gravida
+nulla vitae arcu blandit, non congue elit tempus.
+Suspendisse quis vestibulum diam.</p>
+    </div> <!-- span6 -->
+</div> <!-- row-fluid marketing -->
+
+{% endblock %}
